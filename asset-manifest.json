@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/beingveg/static/css/main.9ade6a34.chunk.css",
+    "main.js": "/beingveg/static/js/main.f1a4deab.chunk.js",
+    "main.js.map": "/beingveg/static/js/main.f1a4deab.chunk.js.map",
+    "runtime-main.js": "/beingveg/static/js/runtime-main.1eb4568f.js",
+    "runtime-main.js.map": "/beingveg/static/js/runtime-main.1eb4568f.js.map",
+    "static/js/2.8b3c9042.chunk.js": "/beingveg/static/js/2.8b3c9042.chunk.js",
+    "static/js/2.8b3c9042.chunk.js.map": "/beingveg/static/js/2.8b3c9042.chunk.js.map",
+    "index.html": "/beingveg/index.html",
+    "precache-manifest.128ec60f01ef9d5a2fc0c36c1d181e6f.js": "/beingveg/precache-manifest.128ec60f01ef9d5a2fc0c36c1d181e6f.js",
+    "service-worker.js": "/beingveg/service-worker.js",
+    "static/css/main.9ade6a34.chunk.css.map": "/beingveg/static/css/main.9ade6a34.chunk.css.map",
+    "static/js/2.8b3c9042.chunk.js.LICENSE.txt": "/beingveg/static/js/2.8b3c9042.chunk.js.LICENSE.txt",
+    "static/media/back-img.jpg": "/beingveg/static/media/back-img.f80c732c.jpg",
+    "static/media/berlin.jpg": "/beingveg/static/media/berlin.75d6f022.jpg",
+    "static/media/bottom-bar.png": "/beingveg/static/media/bottom-bar.b95839c2.png",
+    "static/media/dining_img.jpg": "/beingveg/static/media/dining_img.aeadf4ed.jpg",
+    "static/media/event_img.svg": "/beingveg/static/media/event_img.9083f420.svg",
+    "static/media/logo.svg": "/beingveg/static/media/logo.e57aec5e.svg",
+    "static/media/london.jpg": "/beingveg/static/media/london.85e18a0a.jpg",
+    "static/media/los-angeles.jpg": "/beingveg/static/media/los-angeles.5998c996.jpg",
+    "static/media/new-york-city.jpg": "/beingveg/static/media/new-york-city.208eaa21.jpg",
+    "static/media/user.png": "/beingveg/static/media/user.f1cfd6ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1eb4568f.js",
+    "static/js/2.8b3c9042.chunk.js",
+    "static/css/main.9ade6a34.chunk.css",
+    "static/js/main.f1a4deab.chunk.js"
+  ]
+}
