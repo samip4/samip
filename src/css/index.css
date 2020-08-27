@@ -190,13 +190,13 @@ animation-name: float-bob-y;
   font-weight: 400;
 }
 
-.choice-box{
+.choice-box {
   position: absolute;
   width: 120%;
   left: -140px;
   top: 30px;
-  background: #4527a4;
-  color: #4527a4;
+  background: #08b352;
+  color: #08b352;
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
@@ -212,7 +212,7 @@ animation-name: float-bob-y;
     position: relative;
     display: block;
     overflow: hidden;
-    background: #4527a4;
+    background: #08b352;
     color: #fff;
     text-align: center;
     padding: 41px 15px 45px 15px;
