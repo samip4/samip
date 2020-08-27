@@ -190,7 +190,7 @@ animation-name: float-bob-y;
   font-weight: 400;
 }
 
-.choice-box {
+.choice-box{
   position: absolute;
   width: 120%;
   left: -140px;
