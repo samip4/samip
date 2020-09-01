@@ -80,7 +80,6 @@ const Home =() => {
         </div>
 
          {/* End Top Vegan Friendly Cities */}
-
          {/* register Restaurants */}
          <div className="py-5 mt-5" style={{backgroundImage: `url(${back})`}}>
            <div className="back-text back-text py-5"><p>View, Organize and Prioritize All of your Team’s Projects</p>
