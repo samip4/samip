@@ -9,7 +9,7 @@ import berlin from "../img/berlin.jpg";
 import user from "../img/user.png";
 import back from "../img/back-img.jpg";
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
+
 
 const Home =() => {
     return (
@@ -179,9 +179,7 @@ const Home =() => {
           </section>
 
           {/* End Subscribe our Newsletter */}
-          {/* footer */}
-          <Footer />
-          {/* End footer */}
+         
 
         </>
     );

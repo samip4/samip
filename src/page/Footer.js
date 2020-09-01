@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
           {/* <!-- Footer --> */}
-<img className="w-100" src={bottom} />
+<img className="w-100" src={bottom} alt="footer" />
 <div className="page-footer font-small unique-color-dark pt-1">
 {/* <!-- Footer Links --> */}
 <div className="container text-center text-md-left mt-5">

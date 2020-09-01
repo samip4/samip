@@ -6,6 +6,7 @@ import Error from './page/Error';
 import About from './page/About';
 import Contact from './page/Contact';
 import './App.css';
+import Footer from './page/Footer';
 
 const App =() => {
   return (
@@ -16,9 +17,12 @@ const App =() => {
       <Route exact path="/" component={Home} />
       <Route exact path="/" component={About} />
       <Route exact path="/contact" component={Contact} />
-//       <Route path="/Error" component={Error} />
+      <Route path="/Error" component={Error} />
       <Redirect to="/" />
     </Switch>
+
+     <Footer />
+
 
 </section>
 );
