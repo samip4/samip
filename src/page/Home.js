@@ -164,7 +164,7 @@ const Home =() => {
          <section className="align-item-center py-5 newsletter">
           <div className="row pt-5">
           <div className="col-lg-6 col-md-12">
-          <img className="news_img" src={user} style={{maxWidth: "100%"}} alt="event" />
+          <img className="news_img" src={user} alt="event" />
           </div>
           <div className="col-lg-6 col-md-12 mt-md-5 my-5 d-flex flex-column">
           <h3 className="heading">Subscribe our Newsletter</h3>

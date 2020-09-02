@@ -156,6 +156,7 @@ animation-name: float-bob-y;
     -o-animation-duration: 2s;
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
+    max-width: 100%;
 }
 
 @keyframes float-bob-y{

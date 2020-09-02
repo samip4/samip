@@ -44,11 +44,11 @@ const Contact =() => {
         <div className="align-item-center">
           <div className="row">
           <div className="col-lg-6 col-md-12 mt-5">
-          <img className="cont_img" src={Contact_img} alt="contact" />
+          <img className="news_img" src={Contact_img} alt="contact" />
           </div>
           <div className="col-lg-4 col-md-11 mx-auto mt-5 text-center">
           <div className="cont-form my-5 py-5">
-          <h1>Lets Talk with Us</h1>
+          <h3 className="heading">Lets Talk with Us</h3>
           <input type="text" className="form-control mb-2 w-75 mt-4 mx-auto" placeholder="Name" />
           <input type="email" className="form-control my-2 w-75 mx-auto" placeholder="Enter email" />
           <textarea className="form-control my-4 w-75 mx-auto" placeholder="Enter message" rows="3" />
