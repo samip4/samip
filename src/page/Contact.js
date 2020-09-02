@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/contact.css';
 import Contact_img from "../img/contactus.svg";
+import { Link } from 'react-router-dom'
 
 const Contact =() => {
   return (
@@ -40,16 +41,22 @@ const Contact =() => {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.0603472711348!2d72.86530901966047!3d19.114865085954357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c83a33e286cb%3A0xdde9081f79dd3a42!2sTradeasia%20International%20Pvt%20Ltd%20(Mumbai%20Office)!5e0!3m2!1sen!2sin!4v1598957157440!5m2!1sen!2sin" width="100%" height="400" title="map"></iframe>
 
         {/* contact form */}
-        <section className="align-item-center">
+        <div className="align-item-center">
           <div className="row">
           <div className="col-lg-6 col-md-12 mt-5">
-          <img src={Contact_img} alt="contact" />
+          <img className="cont_img" src={Contact_img} alt="contact" />
           </div>
-          <div className="col-lg-6 col-md-12 mt-md-3 mt-5 d-flex text-center justify-content-center flex-column">
-          {/* <Link className="button mx-auto mt-4" to="/about">About us</Link> */}
+          <div className="col-lg-4 col-md-11 mx-auto mt-5 text-center">
+          <div className="cont-form my-5 py-5">
+          <h1>Lets Talk with Us</h1>
+          <input type="text" className="form-control mb-2 w-75 mt-4 mx-auto" placeholder="Name" />
+          <input type="email" className="form-control my-2 w-75 mx-auto" placeholder="Enter email" />
+          <textarea className="form-control my-4 w-75 mx-auto" placeholder="Enter message" rows="3" />
+          <Link className="button mx-auto mt-5" to="/about">Submit Now</Link>
           </div>
           </div>
-          </section>
+          </div>
+          </div>
         
         </>
     );
