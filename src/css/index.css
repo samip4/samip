@@ -1,11 +1,11 @@
-* {
+ /* {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
 .row{
   margin: 0;
-}
+} 
 
 .active_nav{
   border-bottom: 2px solid green;
@@ -135,6 +135,7 @@ opacity: 0.8;
 } */
 
 /* newsletter img */
+/*
 .news_img{
 animation-name: float-bob-y;
     animation-duration: 2s;
@@ -178,6 +179,7 @@ animation-name: float-bob-y;
 /* End newsletter img */
 
 /* price box */
+/*
 .back-text{
   color: #fff;
   font-size: 20px;
@@ -236,6 +238,7 @@ animation-name: float-bob-y;
 /* End price box */
 
 /* footer */
+/*
 
 .ic .fa{
   font-size:23px;
@@ -277,4 +280,4 @@ hr{
   background-color: #fff;
 }
 
-/* footer */
+/* footer */ 

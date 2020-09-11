@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Home from './page/Home';
+import Home from './page/New';
 import Navbar from './page/Navbar';
 import Error from './page/Error';
 import About from './page/About';
@@ -12,7 +12,7 @@ const App =() => {
   return (
     <section className="App">
 
-    <Navbar />
+    {/* <Navbar /> */}
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
@@ -21,7 +21,7 @@ const App =() => {
       <Redirect to="/" />
     </Switch>
 
-     <Footer />
+     {/* <Footer /> */}
 
 
 </section>
