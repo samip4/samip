@@ -32,7 +32,7 @@ const Navbar =() => {
       </li>
     </ul>
     <span className="nav-item p-3 text-center">
-    <NavLink className="nav-link login_nav" exact activeClassName="active_nav" to="/contact"  aria-disabled="true">Login/Register</NavLink>
+    <NavLink className="nav-link login_nav" exact activeClassName="active_nav" to="/Register"  aria-disabled="true">Login/Register</NavLink>
     </span>
 
   </div>
