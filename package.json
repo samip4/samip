@@ -1,6 +1,6 @@
 {
   "name": "reactapp",
-  "homepage": "https://samip-web.github.io/beingveg",
+  "homepage": "https://samip-web.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "master -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
