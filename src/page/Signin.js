@@ -39,7 +39,7 @@ function Signin() {
 
             <div className="text-center pb-3 text-center">
             <h3 className="heading mt-3">Sign In</h3>
-            <h5>Lets get you on board</h5>
+            <h5>Lets get you on board</h5> 
             </div>
 
           {/* form */}
