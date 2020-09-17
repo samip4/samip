@@ -8,6 +8,7 @@ import Contact from './page/Contact';
 import Register from './page/Register';
 import './App.css';
 import Footer from './page/Footer';
+import Signin from './page/Signin';
 
 const App =() => {
   return (
@@ -19,6 +20,7 @@ const App =() => {
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/register" component={Register} />
+      <Route exact path="/signin" component={Signin} />
       <Route path="/Error" component={Error} />
       <Redirect to="/" />
     </Switch>
