@@ -28,7 +28,7 @@ const Navbar =() => {
         <NavLink className="nav-link" exact activeClassName="active_nav" to="/fer"  aria-disabled="true">EVENTS</NavLink>
       </li>
       <li className="nav-item p-3">
-        <NavLink className="nav-link" exact activeClassName="active_nav" to="/egerg"  aria-disabled="true">VEGETARIANISM</NavLink>
+        <NavLink className="nav-link" exact activeClassName="active_nav" to="/contact"  aria-disabled="true">Contact</NavLink>
       </li>
     </ul>
     <span className="nav-item p-3 text-center">
