@@ -9,7 +9,7 @@ function Signin() {
             <div className="col-xl-6 col-lg-6 col-sm-5 col-md-6 text-center mt-5">
             <h1>Welcome Back</h1>
             <div className="mt-4">To keep connected with us please<br />Register with your personal info</div>
-            <Link className="btn btn-outline-dark my-4 rounded text-center" to="/Register">Register</Link>
+            <Link className="btn btn-outline-success my-4 rounded text-center" to="/Register">Register</Link>
             <hr className="w-50 mx-auto bg-success" />
             <h4 className="mt-5">Or login with</h4 >
             <p className="mx-auto mt-5 ic">

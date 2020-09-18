@@ -246,6 +246,10 @@ animation-name: float-bob-y;
   padding: 11px;
 }
 
+.si .fa{
+  color:darkgreen;
+}
+
 .ic .fa:hover{
 background: #fff;
 padding: 11px;
