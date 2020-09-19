@@ -12,7 +12,7 @@ function Signin() {
             <Link className="btn btn-outline-success my-4 rounded text-center" to="/Register">Register</Link>
             <hr className="w-50 mx-auto bg-success" />
             <h4 className="mt-5">Or login with</h4 >
-            <p className="mx-auto mt-5 ic">
+            <p className="mx-auto mt-5 ic si">
             {/* <!-- Facebook --> */}
             <i className="fb-ic">
             <i className="fa fa-facebook mr-4"> </i>
