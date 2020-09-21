@@ -9,6 +9,7 @@ import Register from './page/Register';
 import './App.css';
 import Footer from './page/Footer';
 import Signin from './page/Signin';
+import Add_listing from './page/Add_listing';
 
 const App =() => {
   return (
@@ -22,6 +23,7 @@ const App =() => {
       <Route exact path="/register" component={Register} />
       <Route exact path="/signin" component={Signin} />
       <Route path="/Error" component={Error} />
+      <Route path="/add-listing" component={Add_listing} />
       <Redirect to="/" />
     </Switch>
 

@@ -19,7 +19,7 @@ const Navbar =() => {
         <NavLink className="nav-link" exact activeClassName="active_nav" to="/about">About us</NavLink>
       </li>
       <li className="nav-item p-3">
-        <NavLink className="nav-link" exact activeClassName="active_nav" to="/fd"  aria-disabled="true">COMMUNITY</NavLink>
+        <NavLink className="nav-link" exact activeClassName="active_nav" to="/Add-listing"  aria-disabled="true">Add Listing</NavLink>
       </li>
       <li className="nav-item p-3">
         <NavLink className="nav-link" exact activeClassName="active_nav" to="/re"  aria-disabled="true">RESTAURANTS</NavLink>
