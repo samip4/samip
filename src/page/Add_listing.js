@@ -19,28 +19,28 @@ function Add_listing() {
             <div className="col-12 pt-1">
             
             <div className="form-group mt-4">
-    <label for="exampleInputEmail1"><b>Your Name</b></label>
+    <label htmlFor="exampleInputEmail1"><b>Your Name</b></label>
     <input className="form-control" type="text" placeholder="Your Name" />
              </div>
              
              <div className="form-group mt-4">
-    <label for="exampleInputEmail1"><b>Your Email</b></label>
+    <label htmlFor="exampleInputEmail1"><b>Your Email</b></label>
     <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Your Email" />
              </div>
 
              <div className="form-group mt-4">
-    <label for="exampleInputEmail1"><b>Restaurant Name</b></label>
-    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Restaurant Name" />
+    <label htmlFor="exampleInputEmail1"><b>Restaurant Name</b></label>
+    <input type="email" className="form-control" id="exampleInputEmail2" placeholder="Restaurant Name" />
              </div>
 
              <div className="form-group mt-4">
-    <label for="exampleInputEmail1"><b>Choose your location</b></label>
+    <label htmlFor="exampleInputEmail1"><b>Choose your location</b></label>
     <input className="form-control" type="text" placeholder="Choose your location" />
              </div>
 
-             <div class="form-group">
-    <label for="exampleFormControlTextarea1"><b>Comments</b></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             <div className="form-group">
+    <label htmlFor="exampleFormControlTextarea1"><b>Comments</b></label>
+    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 
   <div className="mt-5 mx-auto" to="/about">
