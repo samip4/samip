@@ -19,10 +19,10 @@ const Navbar =() => {
         <NavLink className="nav-link" exact activeClassName="active_nav" to="/about">About us</NavLink>
       </li>
       <li className="nav-item p-3">
-        <NavLink className="nav-link" exact activeClassName="active_nav" to="/Add-listing"  aria-disabled="true">Add Listing</NavLink>
+        <NavLink className="nav-link" exact activeClassName="active_nav" to="/add-listing"  aria-disabled="true">Add Listing</NavLink>
       </li>
       <li className="nav-item p-3">
-        <NavLink className="nav-link" exact activeClassName="active_nav" to="/re"  aria-disabled="true">RESTAURANTS</NavLink>
+        <NavLink className="nav-link" exact activeClassName="active_nav" to="/restaurant"  aria-disabled="true">RESTAURANTS</NavLink>
       </li>
       <li className="nav-item p-3">
         <NavLink className="nav-link" exact activeClassName="active_nav" to="/fer"  aria-disabled="true">EVENTS</NavLink>

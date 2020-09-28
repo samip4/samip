@@ -6,6 +6,7 @@ import Error from './page/Error';
 import About from './page/About';
 import Contact from './page/Contact';
 import Register from './page/Register';
+import Restaurant from './page/Restaurant';
 import './App.css';
 import Footer from './page/Footer';
 import Signin from './page/Signin';
@@ -24,6 +25,7 @@ const App =() => {
       <Route exact path="/signin" component={Signin} />
       <Route path="/Error" component={Error} />
       <Route path="/add-listing" component={Add_listing} />
+      <Route path="/restaurant" component={Restaurant} />
       <Redirect to="/" />
     </Switch>
 
